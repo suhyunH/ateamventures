@@ -1,7 +1,6 @@
 import {createGlobalStyle} from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 body {
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
@@ -21,8 +20,9 @@ li{
 }
 button{
     align-items: center;
-    border-radius: 4px;
-    padding: 0 8px;
+    border-radius: 2px;
+    border: none;
+    padding: 4px 8px;
 }
 
 `

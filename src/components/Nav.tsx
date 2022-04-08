@@ -3,7 +3,7 @@ import React from 'react'
 function Nav() {
   return (
     <nav>
-        <div>logo</div>
+        <div>CAPA파트너스</div>
         <div>
             <span>
                 A가공업체
