@@ -1,9 +1,15 @@
 import React from 'react';
+import GlobalStyle from './Globalstyle';
+import Main from './Pages/Main';
+
 
 function App() {
   return (
-    <div className="App">
-    </div>
+      <>
+       <GlobalStyle />
+       <Main />
+      </>
+
   );
 }
 
